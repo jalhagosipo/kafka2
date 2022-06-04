@@ -1,6 +1,0 @@
-- job_name: 'kafka-exporter'
-    static_configs:
-      - targets:
-          - kafka01.foo.bar:9308
-          - kafka02.foo.bar:9308
-          - kafka03.foo.bar:9308

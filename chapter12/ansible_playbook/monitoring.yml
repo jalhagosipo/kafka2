@@ -1,7 +1,0 @@
----
-- hosts: monitoring
-  become: true
-  connection: ssh
-  roles:
-    - docker
-    - monitoring

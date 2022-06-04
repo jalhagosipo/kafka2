@@ -1,7 +1,0 @@
-KafkaServer {
-    com.sun.security.auth.module.Krb5LoginModule required
-    useKeyTab=true
-    storeKey=true
-    keyTab="/usr/local/kafka/keytabs/kafka01.service.keytab"
-    principal="kafka/kafka01.foo.bar@FOO.BAR";
-};

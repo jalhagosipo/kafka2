@@ -1,9 +1,0 @@
----
-- hosts: kafkahosts
-  become: true
-  connection: ssh
-  vars:
-    - zookeeperinfo: zookeeper01.foo.bar:2181,zookeeper02.foo.bar:2181,zookeeper03.foo.bar:2181/kafka3
-    - dir_path: /data/kafka3-logs
-  roles:
-    - kafka
