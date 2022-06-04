@@ -1,6 +1,6 @@
 from confluent_kafka import Producer
 
-broker = 'peter-kafka01.foo.bar, peter-kafka02.foo.bar, peter-kafka03.foo.bar'
+broker = 'kafka01.foo.bar, kafka02.foo.bar, kafka03.foo.bar'
 topic = 'peter-test06'
 
 p = Producer({'bootstrap.servers': broker,

@@ -14,20 +14,20 @@ P192
 python producer.py
 
 P193
-/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server peter-kafka01.foo.bar:9092 --group peter-consumer01 --describe
+/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka01.foo.bar:9092 --group peter-consumer01 --describe
 
 P194
-/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server peter-kafka01.foo.bar:9092 --group peter-consumer01 --describe
+/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka01.foo.bar:9092 --group peter-consumer01 --describe
 
 P197
 python consumer_static.py
-/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server peter-kafka01.foo.bar:9092 --group peter-consumer02 --describe
+/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka01.foo.bar:9092 --group peter-consumer02 --describe
 
 P198
-/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server peter-kafka01.foo.bar:9092 --group peter-consumer02 --describe
+/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka01.foo.bar:9092 --group peter-consumer02 --describe
 
 P199
-/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server peter-kafka01.foo.bar:9092 --group peter-consumer02 --describe
+/usr/local/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka01.foo.bar:9092 --group peter-consumer02 --describe
 
 P213
 cd kafka2/chapter6/
