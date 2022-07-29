@@ -4,4 +4,4 @@
 172.31.3.173 zookeeper03.foo.bar zookeeper03
 172.31.5.59 kafka01.foo.bar kafka01
 172.31.11.46 kafka02.foo.bar kafka02
-172.31.8.78 kafka03.foo.bar kafka03
+172.31.43.135 kafka03.foo.bar kafka03
