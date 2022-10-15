@@ -23,3 +23,12 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+jar {
+    manifest {
+        attributes  'Title': 'My Application', 'Main-Class': 'ExactlyOnceProducer', 'Class-Path': configurations.runtimeClasspath.files.collect { it.getName() }.join(' ')
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
