@@ -26,7 +26,7 @@ test {
 
 jar {
     manifest {
-        attributes  'Title': 'My Application', 'Main-Class': 'ExactlyOnceProducer', 'Class-Path': configurations.runtimeClasspath.files.collect { it.getName() }.join(' ')
+        attributes  'Title': 'My Application', 'Main-Class': 'ExactlyOnceConsumer', 'Class-Path': configurations.runtimeClasspath.files.collect { it.getName() }.join(' ')
     }
     from {
         configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
